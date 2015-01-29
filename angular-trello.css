@@ -1,0 +1,19 @@
+.trello-list {
+  background-color: #eee;
+  padding: 1em;
+}
+.trello-list-name {
+  font-weight: bolder;
+  font-size: 150%;
+}
+.trello-card {
+  background-color: white;
+  padding: 1em;	
+  -webkit-border-radius: 5px; -moz-border-radius: 5px; border-radius: 5px;
+  margin-bottom: 1em;
+}
+.trello-card-name {
+  font-weight: bolder;
+}
+.trello-card-desc {
+}
