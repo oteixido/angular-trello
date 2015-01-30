@@ -6,4 +6,4 @@ AngularJS directive for showing Trello data.
 
 This AngularJS directive shows the cards of the list.
  
-    <ng-trello-list trello-list-name="'list_name'" trello-url="'board_public_json_url'"/>
+    <ng-trello-list trello-id="'list-id'" trello-key="'trello-developer-key'" />
