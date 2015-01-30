@@ -41,7 +41,6 @@ angular.module("trello", [])
       trelloService.loadLists($scope.url).then(function(lists) {
         $scope.lists = lists;
       });
-      $scope.pepino = $scope.url;
     },
     template: '<div class="trello-list"><p class="trello-list-name">{{name}}</p><div class="trello-card" ng-repeat="card in lists[name]"><p class="trello-card-name">{{card.name}}</p><p class="trello-card-description">{{card.desc}}</p></div></div>'
   }
